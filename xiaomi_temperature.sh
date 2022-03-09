@@ -38,7 +38,6 @@ arraylength=${#array[@]}
 # Restarting the interface, just in case
 hciconfig hci0 down
 service bluetooth restart
-service dbus restart
 rfkill unblock all
 hciconfig hci0 up
 
